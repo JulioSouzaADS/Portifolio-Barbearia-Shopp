@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/login.css">
+    <title>Tela Login</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html">
+                <h1 class="logo"> Barber Shop </h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+
+                <label for="menu-hamburguer">
+
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="index.html">Sobre Nós</a></li>
+                    <li><a href="index.html#services">Serviços</a></li>
+                    <li><a href="index.html#projects">Imagens</a></li>
+                    <li><a href="index.html#contacts">Agende Seu Horario</a></li>
+                    <li><a href="#login.html">Acesso Restrito</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="formulario-login" id="formulario-login">
+
+            <form action="" class="form-login" id="form-login">
+                <input type="email" placeholder="E-mail *" id="email" class="email-login inputDados" value="">
+                <p class="error" id="ErrorEmail">*Campos obrigatorios</p>
+                <input type="password" placeholder="Senha *" id="senha-login" class=" senha inputDados" value="">
+                <p class="error" id="ErrorTel">*Campos obrigatorios</p>
+                <input type="submit" value="Acessar" id="enviar-login" class="enviar-login"></input>
+
+                <a href=""> Esqueceu Sua Senha ? Clique Aqui</a>
+            </form>
+            
+        </div>
+    </section>
+</body>
+
+<script src=""></script>
+
+</html>
